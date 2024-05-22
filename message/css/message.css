@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f3f3f3;
+}
+.w1200{
+    width: 1200px;
+    margin: auto;
+}
+.clear {
+    clear: both;
+}
+.logo{
+    float: left;
+    margin-right: 160px;
+    margin-top: 7px;
+}
+.logo1 {
+    float: left;
+    margin-right: 5px;
+}
+.logo2 {
+    float: left;
+    margin-top: 12px;
+}
+.nav {
+    float: left;
+    width: 500px;
+    height: 72px;
+}
+.nav .first {
+    width: 80px;
+    height: 72px;
+    background-color: #5696ff;
+    color: #fff;
+}
+.head .nav li:hover { 
+    background-color: #5696ff;
+    color: #fefeff;
+}
+.head .nav li {
+    float: left;
+    width: 80px;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+    margin-right: 20px;
+    list-style: none;
+}
+.head .nav li a{
+        color: black;
+        text-decoration: none;
+}
+.reg {
+   float: right;
+   line-height : 72px;
+}
+.shadow {
+	height: 60px;
+	background-color: #666666;
+	border: solid 1px #dcdcdc;
+}
+.shadow_coin{
+    position: relative;
+    width: 1200px;
+    height: 60px;
+}
+.searcherICON{
+    position: absolute;
+    left: 0px;
+    top: 19px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-left: 1px solid #f3f1f1;
+    border-right: 1px solid #f3f1f1;
+}
+.personage{
+    position: absolute;
+    right: 0px;
+    top: 19px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-right: 1px solid #f3f1f1;
+}
+.comment{
+    position: absolute;
+    right: 100px;
+    top: 19px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-right: 1px solid #f3f1f1;
+}
+.history{
+    position: absolute;
+    right: 200px;
+    top: 19px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-left: 1px solid #f3f1f1;
+    border-right: 1px solid #f3f1f1;
+}
+.banner .pic{
+    float: left;
+    position: relative;
+	width: 778px;
+	height: 350px;
+	background-color: #000000;
+    background: url(../img/banner.png);
+}
+.pic>.text1{
+    position: absolute;
+    top: 127px;
+    right: 77px;
+}
+.text1>.text {
+    float: left;
+	width: 270px;
+	height: 37px;
+	font-family: RTWSYueGoDemo-Regular;
+	font-size: 28px;
+	line-height: 35px;
+	color: #fefefe;
+}
+.headline{
+    float: left;
+	width: 75px;
+	height: 49px;
+	background: url(../img/headline.png);
+}
+.headline .text{
+    text-align: center;
+    height: 26px;
+    font-family: RTWSYueGoDemo-Regular;
+    font-size: 27px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 35px;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+.pic>.text2{
+    position: absolute;
+    top: 192px;
+    right: 78px;
+	width: 282px;
+	height: 27px;
+	font-family: RTWSYueGoDemo-Regular;
+	font-size: 28px;
+	line-height: 35px;
+	letter-spacing: 0px;
+	color: #fefefe;
+}
+.list{
+    float: right;
+}
+.list li{
+	width: 346px;
+	height: 55px;
+	font-family: MicrosoftYaHei;
+	font-size: 20px;
+	line-height: 35px;
+	color: #333333;
+    margin-bottom: 30px;
+}
+.list ul li::marker{
+    font-size: 30px;
+    color: #fe5308
+}
+.list .line{
+    width: 348px;
+	height: 1px;
+	background-color: #e8e7e7;
+    margin-bottom: 30px;
+}
+.main{
+    float: left;
+    width: 900px;
+}
+.infor {
+    margin-top: 85px;
+    float: left;
+	width: 419px;
+	height: 404px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+.infor>.pic{
+    width: 420px;
+	height: 253px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.pic_data{
+    position: absolute;
+    width: 58px;
+    height: 65px;
+    background-color: #5696ff;
+    top: 25px;
+    left: 20px;
+} 
+.pic_data .text{
+    text-align: center;
+    margin-top: 5px;
+}
+.infor_text{
+    width: 195px;
+	height: 18px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #646464;
+    margin-bottom: 20px;
+}
+.infor_text span{
+    color: #5696ff;
+}
+.infor .title{
+	height: 20px;
+	font-size: 20px;
+	line-height: 24px;
+	color: #222222;
+    margin-bottom: 20px;
+}
+.turn{
+    width: 850px;
+	height: 59px;
+    margin-top: 70px;
+}
+.turn .pre{
+    float: left;
+    position: relative;
+    width: 198px;
+	height: 59px;
+	border: solid 1px #dcdcdc;
+}
+.turn .next{
+    position: relative;
+    float: right;
+    width: 198px;
+	height: 59px;
+	border: solid 1px #dcdcdc;
+}
+.turn .pre_text{
+    position: absolute;
+	font-size: 18px;
+	color: #333333;
+    top: 18px;
+    left: 60px;
+}
+.page{
+    float: left;
+}
+.num{
+    float: left;
+    width: 9px;
+	height: 14px;
+	font-size: 19px;
+	color: #666666;
+    margin: 20px;
+}
+.guide{
+	font-size: 19px;
+	line-height: 35px;
+    color: #5696ff;
+}
+.condition{
+    float: right;
+    width: 200px;
+    height: 650px;
+    margin-top: 85px;
+}
+.con_text {
+	width: 96px;
+	height: 23px;
+	font-size: 24px;
+	line-height: 24px;
+	color: #2e2e2e;
+    margin-bottom: 25px;
+}
+.con_line{
+    margin-bottom: 25px;
+	width: 56px;
+	height: 3px;
+	background-color: #5696ff;
+}
+.con_main{
+	height: 320px;
+    margin-bottom: 50px;
+}
+.con_active{
+    width: 262px;
+	height: 75px;
+    margin-bottom: 20px;
+}
+.con_active>.pic{
+    float: left;
+}
+.pic_data .text{
+	width: 48px;
+	height: 37px;
+	font-family: ArialMT;
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+}
+.con_active .right{
+    float: right;
+}
+.right{
+    float: right;
+    width: 168px;
+    height: 78px;
+}
+.tag{
+    width: 270px;
+    height: 130px;
+}
+.tag_list{
+    height: 39px;
+    margin-bottom: 6px;
+}
+.visa1{
+    float: left;
+	width: 141px;
+	height: 38px;
+	background-color: #5696ff;
+}
+.german{
+    float: right;
+	width: 122px;
+	height: 38px;
+	border: solid 1px #d7d7d7;
+}
+.japan{
+    float: left;
+	width: 122px;
+	height: 38px;
+	border: solid 1px #d7d7d7;
+}
+.airfare{
+    float: right;
+	width: 141px;
+	height: 38px;
+	border: solid 1px #d7d7d7;
+}
+.visa2{
+    float: left;
+	width: 82px;
+	height: 38px;
+	border: solid 1px #d7d7d7;
+    margin-right: 3px;
+}
+.policy{
+    float: left;
+	width: 91px;
+	height: 38px;
+	border: solid 1px #d7d7d7;
+}
+.tran{
+    float: right;
+	width: 86px;
+	height: 38px;
+	border: solid 1px #d7d7d7;
+}
+.tag_list .text{
+	height: 15px;
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 40px;
+	letter-spacing: 0px;
+	color: #a1a1a1;
+    text-align: center;
+}
+.blue {
+    margin-top: 66px;
+    height: 100px;
+    background-color: #5696ff;
+    padding-top: 30px;
+}
+.blue .brand {
+    margin: auto;
+    width: 700px;
+    font-size: 16px;
+    line-height: 35px;
+    color: #fafafc;
+}
+.blue .tel {
+    margin: auto;
+    width: 700px;
+    font-size: 16px;
+    line-height: 35px;
+    color: #fafafc;
+}
