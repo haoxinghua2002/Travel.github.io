@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clear {
+    clear: both;
+}
+body{
+    background: url(../img/bg.png) no-repeat;
+}
+.logo{
+    position: relative;
+    top: 20px;
+    left: 650px;
+}
+.enter{
+    width: 380px;
+	height: 310px;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 6px 0px 
+		rgba(0, 0, 0, 0.4);
+	border-radius: 8px;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.input1 {
+    width: 300px;
+	height: 40px;
+	border-radius: 4px;
+	border: solid 1px #cecece;
+    margin-bottom: 18px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.input2 {
+    width: 300px;
+	height: 40px;
+	border-radius: 4px;
+	border: solid 1px #cecece;
+    margin-bottom: 18px;
+    margin-left: 40px;
+}
+.enter-b{
+    width: 300px;
+	height: 40px;
+	background-color: #5696ff;
+	border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.enter-b .text1{
+	font-size: 18px;
+	line-height: 35px;
+	color: #ffffff;
+    margin: auto;
+}
+.text2 {
+    width: 132px;
+	height: 12px;
+	font-size: 12px;
+	line-height: 35px;
+	color: #999999;
+    margin-left: 40px;
+}
+.text{
+    width: 72px;
+	height: 18px;
+	font-size: 18px;
+	line-height: 35px;
+	color: #ffffff;
+    margin: auto;
+}
+.agree {
+	height: 12px;
+	font-family: MicrosoftYaHei;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 35px;
+	letter-spacing: 0px;
+	color: #cecece;
+    margin-bottom: 15px;
+    margin-top: -30px;
+    text-align: right;
+    margin-right: 40px;
+}
+.agree span{
+    font-family: MicrosoftYaHei;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #999999;
+    margin-left: -5px;
+}
+.coin{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.weibo{
+    float: left;
+    margin: auto;
+    margin-right: 50px;
+}
+.QQ{
+    float: left;
+    margin-right: 50px;
+}
+.wechat{
+    float: left;
+    margin-right: 50px;
+}
+.coin .text3{
+    width: 48px;
+	height: 11px;
+	font-size: 12px;
+	color: #999999;
+    margin-left: 5px;
+}
+.shadow {
+    width: 160px;
+	height: 26px;
+	background-color: #000000;
+	border-radius: 8px;
+	opacity: 0.2;
+    margin-top: 30px;
+    margin-left: 650px;
+}
+span {
+    width: 114px;
+	height: 11px;
+	font-size: 12px;
+	color: #ffffff;
+    margin-left: 20px;
+    text-align: center;  
+}
